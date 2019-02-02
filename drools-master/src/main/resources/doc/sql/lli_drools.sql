@@ -35,8 +35,8 @@ CREATE TABLE IF NOT EXISTS `RULE_ACTION_INFO` (
 -- 正在导出表  lli_drools.RULE_ACTION_INFO 的数据：~2 rows (大约)
 /*!40000 ALTER TABLE `RULE_ACTION_INFO` DISABLE KEYS */;
 INSERT INTO `RULE_ACTION_INFO` (`ACTION_ID`, `ACTION_TYPE`, `ACTION_NAME`, `ACTION_DESC`, `ACTION_CLASS`, `IS_EFFECT`, `CRE_USER_ID`, `CRE_TIME`, `REMARK`) VALUES
-	(1, 1, '测试实现类', '测试实现类', 'com.sky.lli.service.impl.action.TestActionImpl', 1, 1, '2017-07-24 17:12:32', NULL),
-	(2, 2, '自身', '测试自身', 'com.sky.lli.model.fact.TestRule', 1, 1, '2017-07-27 10:07:03', NULL);
+	(1, 1, '测试实现类', '测试实现类', 'TestActionImpl', 1, 1, '2017-07-24 17:12:32', NULL),
+	(2, 2, '自身', '测试自身', 'TestRule', 1, 1, '2017-07-27 10:07:03', NULL);
 /*!40000 ALTER TABLE `RULE_ACTION_INFO` ENABLE KEYS */;
 
 -- 导出  表 lli_drools.RULE_ACTION_PARAM_INFO 结构
@@ -147,7 +147,7 @@ CREATE TABLE IF NOT EXISTS `RULE_ENTITY_INFO` (
 -- 正在导出表  lli_drools.RULE_ENTITY_INFO 的数据：~1 rows (大约)
 /*!40000 ALTER TABLE `RULE_ENTITY_INFO` DISABLE KEYS */;
 INSERT INTO `RULE_ENTITY_INFO` (`ENTITY_ID`, `ENTITY_NAME`, `ENTITY_DESC`, `ENTITY_IDENTIFY`, `PKG_NAME`, `CRE_USER_ID`, `CRE_TIME`, `IS_EFFECT`, `REMARK`) VALUES
-	(1, '测试规则', '测试规则引擎', 'testRule', 'com.sky.lli.model.fact.TestRule', 1, '2017-07-20 11:41:32', 1, NULL);
+	(1, '测试规则', '测试规则引擎', 'testRule', 'TestRule', 1, '2017-07-20 11:41:32', 1, NULL);
 /*!40000 ALTER TABLE `RULE_ENTITY_INFO` ENABLE KEYS */;
 
 -- 导出  表 lli_drools.RULE_ENTITY_ITEM_INFO 结构

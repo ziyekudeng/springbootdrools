@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.sky.lli.dao.BaseRuleSceneEntityRelInfoMapper">
-    <select id="findBaseRuleSceneEntityRelInfoList" parameterType="com.sky.lli.model.BaseRuleSceneEntityRelInfo"
-            resultType="com.sky.lli.model.BaseRuleSceneEntityRelInfo">
+<mapper namespace="com.ebiz.drools.dao.BaseRuleSceneEntityRelInfoMapper">
+    <select id="findBaseRuleSceneEntityRelInfoList" parameterType="com.ebiz.drools.model.BaseRuleSceneEntityRelInfo"
+            resultType="com.ebiz.drools.model.BaseRuleSceneEntityRelInfo">
 
         SELECT DISTINCT
         T.SCENE_ENTITY_REL_ID,
@@ -18,8 +18,8 @@
 
     </select>
 
-    <select id="findBaseRuleEntityListByScene" parameterType="com.sky.lli.model.BaseRuleSceneInfo"
-            resultType="com.sky.lli.model.BaseRuleEntityInfo">
+    <select id="findBaseRuleEntityListByScene" parameterType="com.ebiz.drools.model.BaseRuleSceneInfo"
+            resultType="com.ebiz.drools.model.BaseRuleEntityInfo">
         SELECT DISTINCT
         E.ENTITY_ID,
         E.ENTITY_NAME,

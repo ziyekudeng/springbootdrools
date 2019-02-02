@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.sky.lli.dao.BaseRuleEntityInfoMapper">
+<mapper namespace="com.ebiz.drools.dao.BaseRuleEntityInfoMapper">
     <sql id="BaseFindColumnSql">
             T.ENTITY_ID,
             T.ENTITY_NAME,
@@ -12,8 +12,8 @@
             T.IS_EFFECT,
             T.REMARK
     </sql>
-    <select id="findBaseRuleEntityInfoList" parameterType="com.sky.lli.model.BaseRuleEntityInfo"
-            resultType="com.sky.lli.model.BaseRuleEntityInfo">
+    <select id="findBaseRuleEntityInfoList" parameterType="com.ebiz.drools.model.BaseRuleEntityInfo"
+            resultType="com.ebiz.drools.model.BaseRuleEntityInfo">
         SELECT DISTINCT
             <include refid="BaseFindColumnSql"></include>
         FROM
@@ -22,7 +22,7 @@
 
 
     </select>
-    <select id="findBaseRuleEntityInfoById" resultType="com.sky.lli.model.BaseRuleEntityInfo">
+    <select id="findBaseRuleEntityInfoById" resultType="com.ebiz.drools.model.BaseRuleEntityInfo">
         SELECT DISTINCT
         <include refid="BaseFindColumnSql"></include>
         FROM

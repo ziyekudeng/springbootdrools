@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.sky.lli.dao.BaseRuleActionParamInfoMapper">
+<mapper namespace="com.ebiz.drools.dao.BaseRuleActionParamInfoMapper">
     <sql id="BaseFindParamSql">
                 T.ACTION_PARAM_ID,
                 T.ACTION_ID,
@@ -12,8 +12,8 @@
                 T.CRE_TIME,
                 T.REMARK
     </sql>
-    <select id="findBaseRuleActionParamInfoList" parameterType="com.sky.lli.model.BaseRuleActionParamInfo"
-            resultType="com.sky.lli.model.BaseRuleActionParamInfo">
+    <select id="findBaseRuleActionParamInfoList" parameterType="com.ebiz.drools.model.BaseRuleActionParamInfo"
+            resultType="com.ebiz.drools.model.BaseRuleActionParamInfo">
 
         SELECT DISTINCT
         <include refid="BaseFindParamSql"></include>
@@ -26,7 +26,7 @@
         </if>
 
     </select>
-    <select id="findRuleActionParamByActionId" resultType="com.sky.lli.model.BaseRuleActionParamInfo">
+    <select id="findRuleActionParamByActionId" resultType="com.ebiz.drools.model.BaseRuleActionParamInfo">
         SELECT DISTINCT
         <include refid="BaseFindParamSql"></include>
         FROM
