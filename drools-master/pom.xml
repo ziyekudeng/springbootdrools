@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ebiz.drools</groupId>
+    <groupId>com.drools</groupId>
     <artifactId>drools-master</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>drools-master</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Spring Boot drools master</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -31,8 +31,7 @@
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 
         <!-- 公共模块工程 -->
-        <drools.util.version>1.0.0-SNAPSHOT</drools.util.version>
-        <drools.base.version>1.0.0-SNAPSHOT</drools.base.version>
+        <lli.util.version>1.0.0-SNAPSHOT</lli.util.version>
         <!-- Drool版本定义 -->
         <drools.version>7.0.0.Final</drools.version>
     </properties>
@@ -40,15 +39,15 @@
     <dependencies>
         <!-- 引入工具类项目工程 -->
         <dependency>
-            <groupId>com.ebiz.drools</groupId>
-            <artifactId>drools-base</artifactId>
-            <version>${drools.base.version}</version>
+            <groupId>com.sky</groupId>
+            <artifactId>lli-base</artifactId>
+            <version>${lli.util.version}</version>
         </dependency>
         <!-- 引入工具类项目工程 -->
         <dependency>
-            <groupId>com.ebiz.drools</groupId>
-            <artifactId>drools-utils</artifactId>
-            <version>${drools.util.version}</version>
+            <groupId>com.sky</groupId>
+            <artifactId>lli-utils</artifactId>
+            <version>${lli.util.version}</version>
         </dependency>
 
 

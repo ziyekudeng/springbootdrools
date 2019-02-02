@@ -52,15 +52,15 @@
     </appender>
 
 
-    <logger name="com.ebiz.drools.config.aspect.LogAspectController" level="INFO">
+    <logger name="com.drools.config.aspect.LogAspectController" level="INFO">
         <appender-ref ref="logController"/>
     </logger>
 
-    <logger name="com.ebiz.drools.config.aspect.LogAspectService" level="INFO">
+    <logger name="com.drools.config.aspect.LogAspectService" level="INFO">
         <appender-ref ref="logService"/>
     </logger>
 
-    <logger name="com.ebiz.drools.dao" level="debug" additivity="false">
+    <logger name="com.sky.lli.dao" level="debug" additivity="false">
         <appender-ref ref="file-all"/>
         <appender-ref ref="console"/>
     </logger>

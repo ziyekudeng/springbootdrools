@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ebiz.drools.dao.BaseRuleActionInfoMapper">
-    <select id="findBaseRuleActionInfoList" parameterType="com.ebiz.drools.model.BaseRuleActionInfo"
-            resultType="com.ebiz.drools.model.BaseRuleActionInfo">
+<mapper namespace="com.drools.dao.BaseRuleActionInfoMapper">
+    <select id="findBaseRuleActionInfoList" parameterType="com.drools.model.BaseRuleActionInfo"
+            resultType="com.drools.model.BaseRuleActionInfo">
         SELECT DISTINCT
                 T.ACTION_ID,
                 T.ACTION_TYPE,
@@ -18,8 +18,8 @@
             WHERE
                 1 = 1
     </select>
-    <select id="findRuleActionListByScene" parameterType="com.ebiz.drools.model.BaseRuleSceneInfo"
-            resultType="com.ebiz.drools.model.BaseRuleActionInfo">
+    <select id="findRuleActionListByScene" parameterType="com.drools.model.BaseRuleSceneInfo"
+            resultType="com.drools.model.BaseRuleActionInfo">
         SELECT DISTINCT
         A.ACTION_ID,
         A.ACTION_TYPE,
@@ -50,7 +50,7 @@
         </if>
 
     </select>
-    <select id="findRuleActionListByRule" resultType="com.ebiz.drools.model.BaseRuleActionInfo">
+    <select id="findRuleActionListByRule" resultType="com.drools.model.BaseRuleActionInfo">
         SELECT DISTINCT
                 A.ACTION_ID,
                 A.ACTION_TYPE,
