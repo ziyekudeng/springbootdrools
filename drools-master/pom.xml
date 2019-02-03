@@ -31,7 +31,8 @@
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 
         <!-- 公共模块工程 -->
-        <lli.util.version>1.0.0-SNAPSHOT</lli.util.version>
+        <drools.util.version>1.0.0-SNAPSHOT</drools.util.version>
+        <drools.base.version>1.0.0-SNAPSHOT</drools.base.version>
         <!-- Drool版本定义 -->
         <drools.version>7.0.0.Final</drools.version>
     </properties>
@@ -39,15 +40,15 @@
     <dependencies>
         <!-- 引入工具类项目工程 -->
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>lli-base</artifactId>
-            <version>${lli.util.version}</version>
+            <groupId>com.drools</groupId>
+            <artifactId>drools-base</artifactId>
+            <version>${drools.base.version}</version>
         </dependency>
         <!-- 引入工具类项目工程 -->
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>lli-utils</artifactId>
-            <version>${lli.util.version}</version>
+            <groupId>com.drools</groupId>
+            <artifactId>drools-utils</artifactId>
+            <version>${drools.util.version}</version>
         </dependency>
 
 
