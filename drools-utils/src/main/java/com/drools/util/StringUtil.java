@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 描述：字符串工具类
  * CLASSPATH: StringUtil.java
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2018/1/14
  */
 public class StringUtil implements Serializable {

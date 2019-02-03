@@ -1,9 +1,9 @@
 package com.drools.service.redis.impl;
 
-import com.drools.model.constant.RedisType;
-import com.drools.service.redis.IRedisService;
 import com.drools.exception.ExceptionEnum;
 import com.drools.exception.ServiceException;
+import com.drools.model.constant.RedisType;
+import com.drools.service.redis.IRedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
@@ -16,9 +16,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 描述：
- * CLASSPATH: com.sky.lli.service.redis.impleImpl
+ * CLASSPATH: com.drools.service.redis.impleImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2017/12/22
  */
 @Service

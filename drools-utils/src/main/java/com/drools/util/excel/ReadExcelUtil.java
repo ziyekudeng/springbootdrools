@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 描述：
  * CLASSPATH: ReadExcelUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/5/18
  */
 public class ReadExcelUtil implements Serializable {

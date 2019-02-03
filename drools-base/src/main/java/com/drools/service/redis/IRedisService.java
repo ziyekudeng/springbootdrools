@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * 描述：Redis接口
  * CLASSPATH: IRedisService
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2017/12/22
  */
 public interface IRedisService {

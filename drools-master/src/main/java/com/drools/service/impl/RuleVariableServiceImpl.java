@@ -1,9 +1,9 @@
 package com.drools.service.impl;
 
+import com.drools.dao.BaseRuleVariableInfoMapper;
 import com.drools.model.BaseRuleVariableInfo;
 import com.drools.service.RuleVariableService;
 import com.github.pagehelper.PageInfo;
-import com.drools.dao.BaseRuleVariableInfoMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -13,7 +13,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.impl.RuleVariableServiceImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/20
  */
 @Service

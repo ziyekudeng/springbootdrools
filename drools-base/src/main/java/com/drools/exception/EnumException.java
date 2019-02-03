@@ -8,7 +8,7 @@ import static java.util.Objects.isNull;
  * 描述： 集成运行时异常的自定义异常
  * CLASSPATH: EnumException.java
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/11/20
  */
 class EnumException extends RuntimeException {

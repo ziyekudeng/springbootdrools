@@ -1,7 +1,7 @@
 package com.drools.service;
 
-import com.github.pagehelper.PageInfo;
 import com.drools.model.BaseRuleConditionInfo;
+import com.github.pagehelper.PageInfo;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.RuleConditionService
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 public interface RuleConditionService {

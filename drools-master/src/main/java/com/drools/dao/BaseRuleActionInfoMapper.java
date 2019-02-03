@@ -1,7 +1,7 @@
 package com.drools.dao;
 
-import com.drools.model.BaseRuleSceneInfo;
 import com.drools.model.BaseRuleActionInfo;
+import com.drools.model.BaseRuleSceneInfo;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: BaseRuleActionInfoMapper
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 public interface BaseRuleActionInfoMapper {

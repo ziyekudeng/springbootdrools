@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-@MapperScan("com.sky.lli.dao")
+@MapperScan("com.drools.dao")
 public class Application {
 
     //项目启动主方法

@@ -16,7 +16,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sinosoft.util.excel.ExcelFileUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/8/29
  */
 public class ExcelFileUtil extends BaseExcelFile implements Serializable {

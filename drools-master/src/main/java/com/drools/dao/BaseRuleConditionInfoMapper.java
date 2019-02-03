@@ -9,7 +9,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: BaseRuleConditionInfoMapper
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 public interface BaseRuleConditionInfoMapper {

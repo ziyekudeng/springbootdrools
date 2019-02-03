@@ -7,7 +7,7 @@ import lombok.Setter;
  * 描述：枚举异常
  * CLASSPATH: DroolsExceptionEnum.java
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/11/20
  */
 public enum DroolsExceptionEnum implements IExceptionEnum {

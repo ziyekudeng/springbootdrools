@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * 描述：规则工具类
  * CLASSPATH: com.sky.bluesky.util.RuleUtils
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/26
  */
 public class RuleUtils {

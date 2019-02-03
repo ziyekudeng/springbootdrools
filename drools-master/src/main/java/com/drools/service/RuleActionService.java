@@ -1,8 +1,8 @@
 package com.drools.service;
 
+import com.drools.model.BaseRuleActionInfo;
 import com.drools.model.BaseRuleSceneInfo;
 import com.github.pagehelper.PageInfo;
-import com.drools.model.BaseRuleActionInfo;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.RuleActionService
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 public interface RuleActionService {

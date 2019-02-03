@@ -9,9 +9,9 @@ import java.util.Properties;
 
 /**
  * 描述：图片验证码
- * CLASSPATH: com.sky.lli.util.kaptcha.KaptchaConfig
+ * CLASSPATH: com.drools.util.kaptcha.KaptchaConfig
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/1/16
  */
 @Configuration

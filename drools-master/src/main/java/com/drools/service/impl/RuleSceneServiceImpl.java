@@ -1,8 +1,8 @@
 package com.drools.service.impl;
 
+import com.drools.dao.BaseRuleSceneInfoMapper;
 import com.drools.model.BaseRuleSceneInfo;
 import com.drools.service.RuleSceneService;
-import com.drools.dao.BaseRuleSceneInfoMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -12,7 +12,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.impl.RuleSceneServiceImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/20
  */
 @Service

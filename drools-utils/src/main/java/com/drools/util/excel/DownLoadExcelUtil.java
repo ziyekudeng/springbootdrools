@@ -15,7 +15,7 @@ import java.util.List;
  * 描述： excel 下载工具入口
  * CLASSPATH: com.sinosoft.util.excel.DownLoadExcelUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/8/29
  */
 public class DownLoadExcelUtil implements Serializable {

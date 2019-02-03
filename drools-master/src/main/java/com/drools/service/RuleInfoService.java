@@ -1,10 +1,10 @@
 package com.drools.service;
 
+import com.drools.model.BaseRuleInfo;
+import com.drools.model.BaseRulePropertyInfo;
 import com.drools.model.BaseRulePropertyRelInfo;
 import com.drools.model.BaseRuleSceneInfo;
 import com.github.pagehelper.PageInfo;
-import com.drools.model.BaseRuleInfo;
-import com.drools.model.BaseRulePropertyInfo;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.RuleInfoService
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/25
  */
 public interface RuleInfoService {

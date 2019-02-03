@@ -12,7 +12,7 @@ import java.io.Serializable;
  * 描述：加密-解密工具
  * CLASSPATH: AESUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2017/11/16
  */
 public class AESUtil implements Serializable{

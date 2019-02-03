@@ -2,10 +2,10 @@ package com.drools.service.sequence.impl;
 
 import com.drools.dao.sequence.ISequenceDao;
 import com.drools.dao.sequence.Sequence;
-import com.drools.model.constant.SequenceEnum;
-import com.drools.service.sequence.ISequenceService;
 import com.drools.exception.ExceptionEnum;
 import com.drools.exception.ServiceException;
+import com.drools.model.constant.SequenceEnum;
+import com.drools.service.sequence.ISequenceService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,7 +20,7 @@ import java.util.stream.IntStream;
  * 描述：
  * CLASSPATH: com.sinosoft.cpyy.service.sequence.impl.SequenceServiceImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/3/12
  */
 @Slf4j

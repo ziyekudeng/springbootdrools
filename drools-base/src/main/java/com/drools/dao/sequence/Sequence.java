@@ -1,7 +1,7 @@
 package com.drools.dao.sequence;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.drools.model.constant.DateTimeConstant;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -11,7 +11,7 @@ import java.util.Date;
  * 描述：
  * CLASSPATH: Sequence
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/8/30
  */
 @Data

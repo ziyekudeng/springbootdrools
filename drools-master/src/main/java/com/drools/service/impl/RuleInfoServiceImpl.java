@@ -1,16 +1,16 @@
 package com.drools.service.impl;
 
-import com.drools.model.BaseRulePropertyRelInfo;
-import com.drools.model.BaseRuleSceneInfo;
-import com.drools.service.RuleInfoService;
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.drools.dao.BaseRuleInfoMapper;
 import com.drools.exception.ExceptionEnum;
 import com.drools.exception.ServiceException;
 import com.drools.model.BaseRuleInfo;
 import com.drools.model.BaseRulePropertyInfo;
+import com.drools.model.BaseRulePropertyRelInfo;
+import com.drools.model.BaseRuleSceneInfo;
+import com.drools.service.RuleInfoService;
 import com.drools.util.StringUtil;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -20,7 +20,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.impl.RuleInfoServiceImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/25
  */
 @Service

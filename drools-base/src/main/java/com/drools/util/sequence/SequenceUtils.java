@@ -13,7 +13,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sinosoft.cpyy.util.sequence.SequenceUtils
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/3/12
  */
 @Slf4j

@@ -11,7 +11,7 @@ import java.util.List;
  * 描述：java构建树工具类
  * CLASSPATH: com.sinosoft.cpyy.util.tree.TreeBuilder
  * VERSION:   1.0
- * Created by lihaohao
+ * Created by gaowei
  * DATE:      2017/10/13
  */
 public class TreeBuilder {

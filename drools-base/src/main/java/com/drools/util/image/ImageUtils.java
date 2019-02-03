@@ -16,9 +16,9 @@ import java.util.Base64;
 
 /**
  * 描述：随机数工具类
- * CLASSPATH: com.sky.lli.util.kaptcha.RandomUtil
+ * CLASSPATH: com.drools.util.kaptcha.RandomUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/1/16
  */
 @Slf4j

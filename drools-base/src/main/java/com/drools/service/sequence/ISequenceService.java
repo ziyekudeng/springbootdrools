@@ -9,7 +9,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sinosoft.cpyy.service.sequence.ISequenceService
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/3/12
  */
 public interface ISequenceService {

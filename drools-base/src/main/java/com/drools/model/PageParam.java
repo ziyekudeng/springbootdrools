@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 描述：
  * CLASSPATH: PageParam
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/5/31
  */
 @Data

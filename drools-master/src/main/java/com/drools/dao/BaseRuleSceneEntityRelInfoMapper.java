@@ -1,8 +1,8 @@
 package com.drools.dao;
 
+import com.drools.model.BaseRuleEntityInfo;
 import com.drools.model.BaseRuleSceneEntityRelInfo;
 import com.drools.model.BaseRuleSceneInfo;
-import com.drools.model.BaseRuleEntityInfo;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: BaseRuleSceneEntityRelInfoMapper
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 public interface BaseRuleSceneEntityRelInfoMapper {

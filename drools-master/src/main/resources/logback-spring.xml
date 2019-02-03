@@ -60,7 +60,7 @@
         <appender-ref ref="logService"/>
     </logger>
 
-    <logger name="com.sky.lli.dao" level="debug" additivity="false">
+    <logger name="com.drools.dao" level="debug" additivity="false">
         <appender-ref ref="file-all"/>
         <appender-ref ref="console"/>
     </logger>

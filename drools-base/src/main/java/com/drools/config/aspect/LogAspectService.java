@@ -26,7 +26,7 @@ public class LogAspectService {
      * @return 执行方法的返回值
      * @throws Throwable 抛出异常
      */
-    @Around("execution(* com.sky.lli.service..*(..))")
+    @Around("execution(* com.drools.service..*(..))")
     public Object aroundService(ProceedingJoinPoint pjp) throws Throwable {
         // 开始调用时间
         StopWatch stopWatch = new StopWatch();

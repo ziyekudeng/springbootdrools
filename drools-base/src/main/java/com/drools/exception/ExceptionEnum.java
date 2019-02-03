@@ -6,7 +6,7 @@ import lombok.Getter;
  * 描述：枚举异常
  * CLASSPATH: ExceptionEnum.java
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/11/20
  */
 public enum ExceptionEnum implements IExceptionEnum {

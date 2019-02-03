@@ -17,7 +17,7 @@ import java.util.Map;
  * 描述： 生成excel
  * CLASSPATH: com.sinosoft.util.excel.ExcelFileMapUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/8/28
  */
 public class ExcelFileMapUtil extends BaseExcelFile implements Serializable {

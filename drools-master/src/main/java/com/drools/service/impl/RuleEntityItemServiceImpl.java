@@ -1,10 +1,10 @@
 package com.drools.service.impl;
 
-import com.drools.service.RuleEntityItemService;
 import com.drools.dao.BaseRuleEntityItemInfoMapper;
 import com.drools.exception.ExceptionEnum;
 import com.drools.exception.ServiceException;
 import com.drools.model.BaseRuleEntityItemInfo;
+import com.drools.service.RuleEntityItemService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -14,7 +14,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.impl.RuleEntityItemServiceImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/20
  */
 @Service

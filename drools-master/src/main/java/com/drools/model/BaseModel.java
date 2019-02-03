@@ -9,7 +9,7 @@ import java.util.Date;
  * 描述：
  * CLASSPATH: BaseModel
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/20
  */
 @Data

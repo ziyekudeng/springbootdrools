@@ -16,7 +16,7 @@ import java.io.Serializable;
  * 描述：
  * CLASSPATH: PinyinUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2018/1/14
  */
 public class PinyinUtil implements Serializable {

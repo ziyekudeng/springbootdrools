@@ -1,10 +1,10 @@
 package com.drools.service.impl;
 
+import com.drools.dao.BaseRuleActionRuleRelInfoMapper;
+import com.drools.model.BaseRuleActionRuleRelInfo;
 import com.drools.service.RuleActionRelService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.drools.dao.BaseRuleActionRuleRelInfoMapper;
-import com.drools.model.BaseRuleActionRuleRelInfo;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -14,7 +14,7 @@ import java.util.List;
  * 描述：
  * CLASSPATH: com.sky.bluesky.service.impl.RuleActionRelServiceImpl
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 @Service

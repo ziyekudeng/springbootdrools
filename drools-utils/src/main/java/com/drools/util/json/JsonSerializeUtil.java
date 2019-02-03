@@ -15,7 +15,7 @@ import java.util.List;
  * 描述：JSON工具类，封装了com.alibaba.fastjson.JSON
  * CLASSPATH: JsonSerializeUtil.java
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/11/20
  */
 public final class JsonSerializeUtil implements Serializable{

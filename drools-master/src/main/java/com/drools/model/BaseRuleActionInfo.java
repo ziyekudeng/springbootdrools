@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
  * 描述：
  * CLASSPATH: BaseRuleActionInfo
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/24
  */
 @Data
@@ -21,7 +21,7 @@ public class BaseRuleActionInfo extends BaseModel {
     private String actionClass;//动作实现类
 
     /**
-     * 获取实体标识(例如：com.sky.lli.model.TestRule  最后得到 testRule)
+     * 获取实体标识(例如：com.drools.model.TestRule  最后得到 testRule)
      */
     public String getActionClazzIdentify() {
         int index = actionClass.lastIndexOf('.');

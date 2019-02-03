@@ -12,7 +12,7 @@ import java.util.Map;
  * 描述：封装规则执行传参对象
  * CLASSPATH: RuleExecutionObject
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/7/25
  */
 @Data

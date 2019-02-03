@@ -18,9 +18,9 @@ import java.util.Arrays;
 
 /**
  * 描述：
- * CLASSPATH: com.sky.lli.config.aspect.WebLogAspect
+ * CLASSPATH: com.drools.config.aspect.WebLogAspect
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE: 2017/11/16
  */
 @Aspect
@@ -31,7 +31,7 @@ public class LogAspectController {
     //统计请求的处理时间
     private ThreadLocal<Long> startTime = new ThreadLocal<>();
 
-    @Pointcut("execution(public * com.sky.lli.controller..*.*(..))")
+    @Pointcut("execution(public * com.drools.controller..*.*(..))")
     public void webLog() {
         // do something
     }

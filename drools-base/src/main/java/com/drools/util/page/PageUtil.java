@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 描述：
  * CLASSPATH: util.PageUtil
  * VERSION:   1.0
- * Created by lihao
+ * Created by gaowei
  * DATE:      2017/2/17
  */
 public class PageUtil implements Serializable {
