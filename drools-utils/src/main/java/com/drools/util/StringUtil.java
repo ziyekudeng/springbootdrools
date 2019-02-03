@@ -35,7 +35,7 @@ public class StringUtil implements Serializable {
      * Date 2017/1/3
      */
     public static boolean isNullOrNullValue(String str) {
-        return str == null || str.trim().length() == 0 || str.trim().equalsIgnoreCase("null");
+        return str == null || str.trim().length() == 0 || "null".equalsIgnoreCase(str.trim());
     }
 
     /**

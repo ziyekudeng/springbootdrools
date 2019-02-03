@@ -54,7 +54,7 @@ public class IDCardUtil implements Serializable {
     /**
      * 省、直辖市代码表
      */
-    public static final String cityCode[] = {"11", "12", "13", "14", "15",
+    public static final String[] cityCode = {"11", "12", "13", "14", "15",
             "21", "22", "23", "31", "32", "33", "34", "35", "36", "37", "41",
             "42", "43", "44", "45", "46", "50", "51", "52", "53", "54", "61",
             "62", "63", "64", "65", "71", "81", "82", "91"};
@@ -62,13 +62,13 @@ public class IDCardUtil implements Serializable {
     /**
      * 每位加权因子
      */
-    public static final int power[] = {7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9,
+    public static final int[] power = {7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9,
             10, 5, 8, 4, 2};
 
     /**
      * 第18位校检码
      */
-    public static final String verifyCode[] = {"1", "0", "X", "9", "8", "7",
+    public static final String[] verifyCode = {"1", "0", "X", "9", "8", "7",
             "6", "5", "4", "3", "2"};
     /**
      * 最低年限
@@ -179,8 +179,9 @@ public class IDCardUtil implements Serializable {
                 logger.error(e.toString(), e);
             }
             Calendar cal = Calendar.getInstance();
-            if (birthDate != null)
+            if (birthDate != null) {
                 cal.setTime(birthDate);
+            }
             // 获取出生年(完全表现形式,如：2010)
             String sYear = String.valueOf(cal.get(Calendar.YEAR));
             idCard18 = idCard.substring(0, 6) + sYear + idCard.substring(8);
@@ -234,7 +235,7 @@ public class IDCardUtil implements Serializable {
         }
         String[] cardval = validateIdCard10(card);
         if (cardval != null) {
-            if (cardval[2].equals("true")) {
+            if ("true".equals(cardval[2])) {
                 return true;
             }
         }
@@ -297,8 +298,9 @@ public class IDCardUtil implements Serializable {
                 logger.error(e.toString(), e);
             }
             Calendar cal = Calendar.getInstance();
-            if (birthDate != null)
+            if (birthDate != null) {
                 cal.setTime(birthDate);
+            }
             if (!valiDate(cal.get(Calendar.YEAR),
                     Integer.valueOf(birthCode.substring(2, 4)),
                     Integer.valueOf(birthCode.substring(4, 6)))) {
@@ -329,9 +331,9 @@ public class IDCardUtil implements Serializable {
         if (idCard.matches("^[a-zA-Z][0-9]{9}{1}")) { // 台湾
             info[0] = "台湾";
             String char2 = idCard.substring(1, 2);
-            if (char2.equals("1")) {
+            if ("1".equals(char2)) {
                 info[1] = "M";
-            } else if (char2.equals("2")) {
+            } else if ("2".equals(char2)) {
                 info[1] = "F";
             } else {
                 info[1] = "N";
@@ -409,7 +411,7 @@ public class IDCardUtil implements Serializable {
             sum = sum + Integer.valueOf(c + "") * iflag;
             iflag--;
         }
-        if (end.toUpperCase().equals("A")) {
+        if ("A".equals(end.toUpperCase())) {
             sum = sum + 10;
         } else {
             sum = sum + Integer.valueOf(end);
@@ -642,10 +644,10 @@ public class IDCardUtil implements Serializable {
      */
     public static int getSexByIdCard(String idCard) {
         String sexName = getGenderByIdCard(idCard);
-        if (sexName.equals("N")) {
+        if ("N".equals(sexName)) {
             return 0;
         }
-        return (sexName.equals("M")) ? 1 : 2;
+        return ("M".equals(sexName)) ? 1 : 2;
     }
 
     /**
@@ -720,8 +722,9 @@ public class IDCardUtil implements Serializable {
      * @return 星座
      */
     public static String getConstellationById(String idCard) {
-        if (!validateIdCard(idCard))
+        if (!validateIdCard(idCard)) {
             return "";
+        }
         int month = IDCardUtil.getMonthByIdCard(idCard);
         int day = IDCardUtil.getDateByIdCard(idCard);
         String strValue = "";
@@ -763,10 +766,11 @@ public class IDCardUtil implements Serializable {
      * @return 生肖
      */
     public static String getZodiacById(String idCard) { // 根据身份证号，自动返回对应的生肖
-        if (!validateIdCard(idCard))
+        if (!validateIdCard(idCard)) {
             return "";
+        }
 
-        String sSX[] = {"猪", "鼠", "牛", "虎", "兔", "龙", "蛇", "马", "羊", "猴", "鸡", "狗"};
+        String[] sSX = {"猪", "鼠", "牛", "虎", "兔", "龙", "蛇", "马", "羊", "猴", "鸡", "狗"};
         int year = IDCardUtil.getYearByIdCard(idCard);
         int end = 3;
         int x = (year - end) % 12;
@@ -785,11 +789,12 @@ public class IDCardUtil implements Serializable {
      * @return 天干地支
      */
     public static String getChineseEraById(String idCard) { // 根据身份证号，自动返回对应的生肖
-        if (!validateIdCard(idCard))
+        if (!validateIdCard(idCard)) {
             return "";
+        }
 
-        String sTG[] = {"癸", "甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "任"};
-        String sDZ[] = {"亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌"};
+        String[] sTG = {"癸", "甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "任"};
+        String[] sDZ = {"亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌"};
 
         int year = IDCardUtil.getYearByIdCard(idCard);
         int i = (year - 3) % 10;

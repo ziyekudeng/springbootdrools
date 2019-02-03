@@ -54,8 +54,9 @@ public class RandomUtils implements Serializable {
      * @param length 长度
      */
     private static String generateRandomString(char[] array, int length) {
-        if (array == null || array.length == 0)
+        if (array == null || array.length == 0) {
             return "";
+        }
         StringBuilder sb = new StringBuilder();
         Random random = new Random();
         for (int i = 0; i < length; i++) {
