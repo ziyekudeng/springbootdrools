@@ -9,12 +9,12 @@ import org.apache.ibatis.annotations.Update;
  * CLASSPATH: com.drools.cpyy.dao.master.sequence.ISequenceDao
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/3/12
+ * DATE:
  */
 public interface ISequenceDao {
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取下一个序列值
      *
@@ -24,7 +24,7 @@ public interface ISequenceDao {
     Integer getNextValBySeqName(@Param("seqName") String seqName);
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取当前序列值
      *
@@ -34,7 +34,7 @@ public interface ISequenceDao {
     Integer getCurrValBySeqName(@Param("seqName") String seqName);
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称初始化当前序列值和当前年月日
      *
@@ -48,7 +48,7 @@ public interface ISequenceDao {
                               @Param("currMM") Integer currMM, @Param("currVal") Integer currVal);
 
     /**
-     * Date 2018/8/30
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取序列
      *

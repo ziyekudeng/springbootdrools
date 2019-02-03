@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  * CLASSPATH: com.drools.util.RuleUtils
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/26
+ * DATE:
  */
 public class RuleUtils {
 
@@ -32,7 +32,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 截取两个$之间的内容
@@ -50,7 +50,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:截取两个@之间的内容
@@ -66,7 +66,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 截取两个#之间的内容
@@ -81,7 +81,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 截取指定符号之间的内容(例如: #或者*等 )
@@ -98,7 +98,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 如果是整数或者小数，则返回true，否则返回false
@@ -108,7 +108,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:得到 > >= < <= == != 后面的字符串
@@ -123,7 +123,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:检查是否包含 + - × / % 如果包含返回true
@@ -134,7 +134,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:判断当前字符串是否包含指定符号(charStr)信息,如果包含返回true
@@ -144,7 +144,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据属性得到其get方法名
@@ -160,7 +160,7 @@ public class RuleUtils {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据属性得到其set方法名

@@ -13,7 +13,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleSceneServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 @Service
 public class RuleSceneServiceImpl implements RuleSceneService {
@@ -21,7 +21,7 @@ public class RuleSceneServiceImpl implements RuleSceneService {
     @Resource
     private BaseRuleSceneInfoMapper baseRuleSceneInfoMapper;
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取规则引擎场景集合

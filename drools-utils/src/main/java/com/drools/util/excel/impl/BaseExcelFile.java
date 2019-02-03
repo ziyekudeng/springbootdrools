@@ -21,7 +21,7 @@ import java.util.Map;
  * CLASSPATH: com.drools.util.excel.BaseExcelFile
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/1/22
+ * DATE:
  */
 class BaseExcelFile implements Serializable {
 
@@ -38,7 +38,7 @@ class BaseExcelFile implements Serializable {
 
 
     /**
-     * Date 2018/1/22
+     * DATE:
      * Author gaowei
      * 方法说明: excel设置数据有效性
      *
@@ -101,7 +101,7 @@ class BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2018/2/2
+     * DATE:
      * Author gaowei
      * 方法说明: 设置单元格样式
      *
@@ -118,7 +118,7 @@ class BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2018/2/5
+     * DATE:
      * Author gaowei
      * 方法说明: 格式化文件后缀
      *

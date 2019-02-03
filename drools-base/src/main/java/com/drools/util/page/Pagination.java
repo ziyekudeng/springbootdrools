@@ -10,7 +10,7 @@ import java.util.List;
  * CLASSPATH: com.drools.cpyy.util.page.Pagination
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/9/29
+ * DATE:
  */
 @Data
 @SuppressWarnings({"rawtypes", "unchecked"})
@@ -31,7 +31,7 @@ public class Pagination<T> implements Serializable {
     }
 
     /**
-     * Date 2017/9/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 没有分页的集合
@@ -44,7 +44,7 @@ public class Pagination<T> implements Serializable {
 
 
     /**
-     * Date 2017/9/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 有分页的集合
@@ -64,7 +64,7 @@ public class Pagination<T> implements Serializable {
     }
 
     /**
-     * Date 2017/9/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 设置总页数

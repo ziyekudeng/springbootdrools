@@ -16,7 +16,7 @@ import java.util.List;
  * CLASSPATH: com.drools.util.excel.DownLoadExcelUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/8/29
+ * DATE:
  */
 public class DownLoadExcelUtil implements Serializable {
 
@@ -25,7 +25,7 @@ public class DownLoadExcelUtil implements Serializable {
     //region ===================================单个页签下载方法=====================================
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel 2003下载
@@ -45,7 +45,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel下载( 2007或更高版本)
@@ -65,7 +65,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel 2003下载
@@ -85,7 +85,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel下载( 2007或更高版本)
@@ -109,7 +109,7 @@ public class DownLoadExcelUtil implements Serializable {
     //region ===================================多个页签下载方法=====================================
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel 2003下载
@@ -129,7 +129,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel下载( 2007或更高版本)
@@ -149,7 +149,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel 2003下载
@@ -169,7 +169,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel下载( 2007或更高版本)
@@ -192,7 +192,7 @@ public class DownLoadExcelUtil implements Serializable {
     //region ===================================指定文件名称,多个页签下载方法=====================================
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel 2003下载
@@ -212,7 +212,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel下载( 2007或更高版本)
@@ -232,7 +232,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel 2003下载
@@ -252,7 +252,7 @@ public class DownLoadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  excel下载( 2007或更高版本)

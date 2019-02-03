@@ -14,7 +14,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleVariableServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 @Service
 public class RuleVariableServiceImpl implements RuleVariableService {
@@ -23,7 +23,7 @@ public class RuleVariableServiceImpl implements RuleVariableService {
     private BaseRuleVariableInfoMapper baseRuleVariableInfoMapper;
 
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据变量类型或数值类型获取变量集合信息

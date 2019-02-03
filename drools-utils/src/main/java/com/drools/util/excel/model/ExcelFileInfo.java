@@ -9,7 +9,7 @@ import java.util.Map;
  * CLASSPATH: com.drools.util.excel.readexcel.ExcelFileInfo
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/5/16
+ * DATE:
  */
 public class ExcelFileInfo implements Serializable {
     //表头

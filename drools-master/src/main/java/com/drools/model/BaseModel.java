@@ -10,7 +10,7 @@ import java.util.Date;
  * CLASSPATH: BaseModel
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 @Data
 public class BaseModel implements Serializable {

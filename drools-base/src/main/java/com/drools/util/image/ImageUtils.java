@@ -19,7 +19,7 @@ import java.util.Base64;
  * CLASSPATH: com.drools.util.kaptcha.RandomUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/1/16
+ * DATE:
  */
 @Slf4j
 @Component
@@ -38,7 +38,7 @@ public class ImageUtils {
 
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 随机数字
      */
@@ -47,7 +47,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 随机字符串(数字+字母)
      */
@@ -56,7 +56,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 随机字符串(大写)
      */
@@ -65,7 +65,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 随机字符串(小写)
      */
@@ -74,7 +74,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 将字符串转换成base64编码
      *
@@ -85,7 +85,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 将字符串转换成 BufferedImage 图片
      *
@@ -96,7 +96,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 将 BufferedImage 转换成base64编码
      *
@@ -107,7 +107,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 将Base64位编码的图片进行解码，并保存到指定目录
      *
@@ -124,7 +124,7 @@ public class ImageUtils {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 将Base64位编码的图片进行解码，并保存到指定目录
      *
@@ -158,7 +158,7 @@ public class ImageUtils {
 
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 将BufferedImage转换成base64
      *

@@ -15,7 +15,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleEntityServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 @Service
 public class RuleEntityServiceImpl implements RuleEntityService {
@@ -25,7 +25,7 @@ public class RuleEntityServiceImpl implements RuleEntityService {
 
 
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取规则引擎实体信息
@@ -38,7 +38,7 @@ public class RuleEntityServiceImpl implements RuleEntityService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据实体id获取实体信息

@@ -14,7 +14,7 @@ import java.util.List;
  * CLASSPATH: com.drools.cpyy.util.sequence.SequenceUtils
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/3/12
+ * DATE:
  */
 @Slf4j
 @Component
@@ -28,7 +28,7 @@ public class SequenceUtils {
 
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取下一个序列值
      *
@@ -42,7 +42,7 @@ public class SequenceUtils {
     }
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取当前序列值
      *
@@ -56,7 +56,7 @@ public class SequenceUtils {
     }
 
     /**
-     * Date 2018/7/4
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取指定区间序列值
      *

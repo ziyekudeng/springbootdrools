@@ -19,7 +19,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleSceneEntityRelServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 @Service
 public class RuleSceneEntityRelServiceImpl implements RuleSceneEntityRelService {
@@ -29,7 +29,7 @@ public class RuleSceneEntityRelServiceImpl implements RuleSceneEntityRelService 
 
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 查询场景与实体关系表信息
@@ -43,7 +43,7 @@ public class RuleSceneEntityRelServiceImpl implements RuleSceneEntityRelService 
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据场景信息获取相关的实体信息

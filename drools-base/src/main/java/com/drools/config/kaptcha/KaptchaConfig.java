@@ -12,7 +12,7 @@ import java.util.Properties;
  * CLASSPATH: com.drools.util.kaptcha.KaptchaConfig
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/1/16
+ * DATE:
  */
 @Configuration
 public class KaptchaConfig {
@@ -43,7 +43,7 @@ public class KaptchaConfig {
      */
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 图片验证码,包含字母
      */
@@ -55,7 +55,7 @@ public class KaptchaConfig {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 图片验证码,纯数字
      */
@@ -68,7 +68,7 @@ public class KaptchaConfig {
 
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: DefaultKaptcha 实例
      *

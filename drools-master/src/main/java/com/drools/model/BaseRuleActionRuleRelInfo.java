@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
  * CLASSPATH: BaseRuleActionRuleRelInfo
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

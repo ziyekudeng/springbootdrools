@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  * CLASSPATH: com.drools.service.redis.impleImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2017/12/22
+ * DATE:
  */
 @Service
 public class RedisServiceImpl implements IRedisService {
@@ -33,7 +33,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据Key查找对应的value
      *
@@ -47,7 +47,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据Key查找所有的value集合
      *
@@ -67,7 +67,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据Key查找所有的value集合
      *
@@ -87,7 +87,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条永久记录
      *
@@ -102,7 +102,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条永久记录
      *
@@ -115,7 +115,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据key删除redis中的记录
      *
@@ -128,7 +128,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据key删除redis中的记录
      *
@@ -140,7 +140,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条永久记录
      *
@@ -153,7 +153,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条记录,并设置有效时间
      *
@@ -168,7 +168,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2018/2/23
+     * DATE:
      * Author gaowei
      * 方法说明: 根据可以获取value
      *
@@ -181,7 +181,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据key删除redis中的记录
      *
@@ -193,7 +193,7 @@ public class RedisServiceImpl implements IRedisService {
     }
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 检查key是否为空
      *

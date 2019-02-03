@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * CLASSPATH: IRedisService
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2017/12/22
+ * DATE:
  */
 public interface IRedisService {
 
@@ -20,7 +20,7 @@ public interface IRedisService {
      */
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据Key查找对应的value
      *
@@ -30,7 +30,7 @@ public interface IRedisService {
     String get(RedisType type, String key);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据Key查找所有的value集合
      *
@@ -39,7 +39,7 @@ public interface IRedisService {
     List<String> getValues(RedisType type);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据Key查找所有的value集合
      *
@@ -48,7 +48,7 @@ public interface IRedisService {
     Map<String, String> getAll(RedisType type);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条永久记录
      *
@@ -59,7 +59,7 @@ public interface IRedisService {
     void put(RedisType type, String key, String value);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条永久记录
      *
@@ -69,7 +69,7 @@ public interface IRedisService {
     void putAll(RedisType type, Map<String, String> map);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据key删除redis中的记录
      *
@@ -79,7 +79,7 @@ public interface IRedisService {
     void remove(RedisType type, String key);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据key删除redis中的记录
      *
@@ -92,7 +92,7 @@ public interface IRedisService {
      */
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条永久记录
      *
@@ -102,7 +102,7 @@ public interface IRedisService {
     void put(String key, String value);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 向Redis中添加一条记录,并设置有效时间
      *
@@ -114,7 +114,7 @@ public interface IRedisService {
     void put(String key, String value, long expiredTime, TimeUnit unit);
 
     /**
-     * Date 2018/2/23
+     * DATE:
      * Author gaowei
      * 方法说明: 根据可以获取value
      *
@@ -123,7 +123,7 @@ public interface IRedisService {
     String get(String key);
 
     /**
-     * Date 2017/12/22
+     * DATE:
      * Author gaowei
      * 方法说明: 根据key删除redis中的记录
      *

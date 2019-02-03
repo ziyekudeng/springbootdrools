@@ -9,12 +9,12 @@ import com.drools.model.fact.RuleExecutionResult;
  * CLASSPATH: com.drools.service.DroolsActionService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface DroolsActionService {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 引擎执行结束,实现类默认执行方法

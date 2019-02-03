@@ -9,12 +9,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleActionRuleRelInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface BaseRuleActionRuleRelInfoMapper {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取规则与动作关系集合信息

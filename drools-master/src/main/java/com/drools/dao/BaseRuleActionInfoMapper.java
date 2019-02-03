@@ -11,12 +11,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleActionInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface BaseRuleActionInfoMapper {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取动作列表
@@ -26,7 +26,7 @@ public interface BaseRuleActionInfoMapper {
     List<BaseRuleActionInfo> findBaseRuleActionInfoList(BaseRuleActionInfo baseRuleActionInfo);
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据场景获取所有的动作信息
@@ -37,7 +37,7 @@ public interface BaseRuleActionInfoMapper {
 
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则id获取动作集合
@@ -47,7 +47,7 @@ public interface BaseRuleActionInfoMapper {
     List<BaseRuleActionInfo> findRuleActionListByRule(@Param("ruleId") Long ruleId);
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 查询是否有实现类的动作

@@ -25,7 +25,7 @@ public class JavaMathUtil implements Serializable {
      * @param number2 加数
      * @return 两个参数的和
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal add(Number number1, Number number2) {
         BigDecimal bigDecimal1 = NumberUtil.createBigDecimal(number1);
@@ -40,7 +40,7 @@ public class JavaMathUtil implements Serializable {
      * @param number2 减数
      * @return 两个参数的差
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal subtract(Number number1, Number number2) {
         BigDecimal bigDecimal1 = NumberUtil.createBigDecimal(number1);
@@ -55,7 +55,7 @@ public class JavaMathUtil implements Serializable {
      * @param number2 乘数
      * @return 两个参数的积
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal multiply(Number number1, Number number2) {
         BigDecimal bigDecimal1 = NumberUtil.createBigDecimal(number1);
@@ -71,7 +71,7 @@ public class JavaMathUtil implements Serializable {
      * @param scale   表示表示需要精确到小数点以后几位
      * @return 两个参数的商
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal divide(Number number1, Number number2, int scale) {
         BigDecimal bigDecimal1 = NumberUtil.createBigDecimal(number1);
@@ -86,7 +86,7 @@ public class JavaMathUtil implements Serializable {
      * @param number2 除数
      * @return 两个参数的商
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal divide(Number number1, Number number2) {
         return divide(number1, number2, DEF_DIV_SCALE);
@@ -99,7 +99,7 @@ public class JavaMathUtil implements Serializable {
      * @param scale  小数点后保留几位
      * @return 四舍五入后的结果
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal round(Number number, int scale) {
         BigDecimal bigDecimal = NumberUtil.createBigDecimal(number);

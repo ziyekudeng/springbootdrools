@@ -9,7 +9,7 @@ import java.util.Map;
  * CLASSPATH: com.drools.util.excel.ExcelMapModel
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/8/28
+ * DATE:
  */
 public class ExcelMapModel implements Serializable {
 

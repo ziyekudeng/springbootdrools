@@ -11,12 +11,12 @@ import java.io.Serializable;
  * CLASSPATH: ReadExcelUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/5/18
+ * DATE:
  */
 public class ReadExcelUtil implements Serializable {
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,默认从第一行开始读取
      *
@@ -27,7 +27,7 @@ public class ReadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,指定行开始读取
      *
@@ -39,7 +39,7 @@ public class ReadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,默认从第一行开始读取
      *
@@ -51,7 +51,7 @@ public class ReadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,指定行开始读取
      *
@@ -64,7 +64,7 @@ public class ReadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,指定行,指定列开始读取
      *
@@ -77,7 +77,7 @@ public class ReadExcelUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,指定行,指定列开始读取
      *

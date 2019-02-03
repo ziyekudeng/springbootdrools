@@ -9,7 +9,7 @@ import static java.util.Objects.isNull;
  * CLASSPATH: EnumException.java
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/11/20
+ * DATE:
  */
 class EnumException extends RuntimeException {
 

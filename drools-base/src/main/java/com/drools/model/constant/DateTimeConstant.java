@@ -7,7 +7,7 @@ import java.io.Serializable;
  * CLASSPATH: DateTimeConstant
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/2/5
+ * DATE:
  */
 public class DateTimeConstant implements Serializable {
 

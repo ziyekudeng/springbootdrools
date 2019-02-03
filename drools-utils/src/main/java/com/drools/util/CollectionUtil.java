@@ -20,7 +20,7 @@ public class CollectionUtil implements Serializable {
      * 方法说明 : 判断集合是否为空
      * <p>
      * Author gaowei
-     * Date 2017/10/10
+     * DATE:
      */
     public static boolean collectionIsNull(Collection<?> collection) {
         return collection == null || collection.isEmpty();
@@ -31,7 +31,7 @@ public class CollectionUtil implements Serializable {
      * <p>
      * Author gaowei
      *
-     * @date 2017/8/3
+     * @DATE:
      */
     public static boolean mapIsNull(Map<?, ?> map) {
         return map == null || map.isEmpty();
@@ -45,7 +45,7 @@ public class CollectionUtil implements Serializable {
      * @param maxCountPerList 单个集合中元素数量
      * @return 返回封装拆分后集合的集合
      * Author gaowei
-     * Date 2017/10/10
+     * DATE:
      */
     public static <T> List<List<T>> splitList(List<T> list, int maxCountPerList) {
         if (list == null || list.isEmpty()) {
@@ -79,7 +79,7 @@ public class CollectionUtil implements Serializable {
      * @param count      限制参数的个数
      * @return 返回封装拆分后集合的集合
      * Author gaowei
-     * Date 2017/10/10
+     * DATE:
      */
     public static <T> List<List<T>> splitList(Collection<T> collection, int count) {
         if (collection == null || collection.isEmpty()) {
@@ -100,7 +100,7 @@ public class CollectionUtil implements Serializable {
      * @param count 限制参数的个数
      * @return 返回封装拆分后集合的集合
      * Author gaowei
-     * Date 2017/10/10
+     * DATE:
      */
     public static <T> List<List<T>> splitList(T[] objs, int count) {
         if (objs == null || objs.length == 0) {
@@ -121,7 +121,7 @@ public class CollectionUtil implements Serializable {
      * @param count 限制参数的个数
      * @return 返回封装拆分后集合的集合
      * Author gaowei
-     * Date 2017/10/10
+     * DATE:
      */
     public static <K, V> List<Map<K, V>> splitMap(Map<K, V> map, int count) {
         if (map == null || map.size() == 0) {
@@ -142,7 +142,7 @@ public class CollectionUtil implements Serializable {
     }
 
     /**
-     * Date 2017/10/10
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: list深度克隆
@@ -170,7 +170,7 @@ public class CollectionUtil implements Serializable {
     }
 
     /**
-     * Date 2018/9/5
+     * DATE:
      * Author gaowei
      * 方法说明: Json序列化深度拷贝List集合
      *
@@ -189,7 +189,7 @@ public class CollectionUtil implements Serializable {
     }
 
     /**
-     * Date 2018/1/10
+     * DATE:
      * Author gaowei
      * 方法说明: 删除重复数据,返回新的集合
      *
@@ -206,7 +206,7 @@ public class CollectionUtil implements Serializable {
 
 
     /**
-     * Date 2017/1/3
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 将字符串转换为指定类型的list集合
@@ -222,7 +222,7 @@ public class CollectionUtil implements Serializable {
     }
 
     /**
-     * Date 2017/1/3
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 将字符串转换为指定类型的list集合
@@ -238,7 +238,7 @@ public class CollectionUtil implements Serializable {
     }
 
     /**
-     * Date 2017/1/3
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 将字符串转换为指定类型的list集合

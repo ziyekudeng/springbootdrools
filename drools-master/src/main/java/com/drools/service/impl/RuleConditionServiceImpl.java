@@ -17,7 +17,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleConditionServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 @Service
 public class RuleConditionServiceImpl implements RuleConditionService {
@@ -26,7 +26,7 @@ public class RuleConditionServiceImpl implements RuleConditionService {
     private BaseRuleConditionInfoMapper baseRuleConditionInfoMapper;
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则获取规则条件信息
@@ -43,7 +43,7 @@ public class RuleConditionServiceImpl implements RuleConditionService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则id获取规则条件信息

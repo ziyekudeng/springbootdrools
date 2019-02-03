@@ -12,7 +12,7 @@ import java.util.Date;
  * CLASSPATH: Sequence
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/8/30
+ * DATE:
  */
 @Data
 public class Sequence implements Serializable {

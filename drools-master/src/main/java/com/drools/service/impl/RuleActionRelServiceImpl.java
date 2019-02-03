@@ -15,7 +15,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleActionRelServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 @Service
 public class RuleActionRelServiceImpl implements RuleActionRelService {
@@ -24,7 +24,7 @@ public class RuleActionRelServiceImpl implements RuleActionRelService {
     private BaseRuleActionRuleRelInfoMapper baseRuleActionRuleRelInfoMapper;
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取规则与动作关系集合信息

@@ -8,7 +8,7 @@ import lombok.Setter;
  * CLASSPATH: DroolsExceptionEnum.java
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/11/20
+ * DATE:
  */
 public enum DroolsExceptionEnum implements IExceptionEnum {
 

@@ -17,7 +17,7 @@ import java.util.List;
  * CLASSPATH: com.drools.service.impl.RuleActionParamServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 @Service
 public class RuleActionParamServiceImpl implements RuleActionParamService {
@@ -26,7 +26,7 @@ public class RuleActionParamServiceImpl implements RuleActionParamService {
     private BaseRuleActionParamInfoMapper baseRuleActionParamInfoMapper;
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取动作参数信息
@@ -44,7 +44,7 @@ public class RuleActionParamServiceImpl implements RuleActionParamService {
     }
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据动作id获取动作参数信息

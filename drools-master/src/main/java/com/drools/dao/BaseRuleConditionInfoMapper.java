@@ -10,12 +10,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleConditionInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface BaseRuleConditionInfoMapper {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则获取规则条件信息
@@ -25,7 +25,7 @@ public interface BaseRuleConditionInfoMapper {
     List<BaseRuleConditionInfo> findBaseRuleConditionInfoList(BaseRuleConditionInfo baseRuleConditionInfo);
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则获取对应的条件信息

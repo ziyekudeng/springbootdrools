@@ -12,7 +12,7 @@ import java.util.List;
  * CLASSPATH: com.drools.cpyy.util.tree.TreeBuilder
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/10/13
+ * DATE:
  */
 public class TreeBuilder {
 
@@ -23,7 +23,7 @@ public class TreeBuilder {
     }
 
     /**
-     * Date 2017/10/13
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 两层循环实现建树
@@ -36,7 +36,7 @@ public class TreeBuilder {
     }
 
     /**
-     * Date 2017/10/13
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 两层循环实现建树
@@ -92,7 +92,7 @@ public class TreeBuilder {
 
 
     /**
-     * Date 2017/10/13
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 使用递归方法建树
@@ -104,7 +104,7 @@ public class TreeBuilder {
     }
 
     /**
-     * Date 2017/10/13
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 使用递归方法建树
@@ -133,7 +133,7 @@ public class TreeBuilder {
 
 
     /**
-     * Date 2017/10/13
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 递归查找子节点

@@ -8,12 +8,12 @@ import com.drools.model.fact.RuleExecutionObject;
  * CLASSPATH: com.drools.service.DroolsRuleEngineService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/25
+ * DATE:
  */
 public interface DroolsRuleEngineService {
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 规则引擎执行方法

@@ -9,7 +9,7 @@ import java.io.Serializable;
  * CLASSPATH: PageParam
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/5/31
+ * DATE:
  */
 @Data
 public class PageParam<T> implements Serializable {

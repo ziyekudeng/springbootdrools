@@ -11,12 +11,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleSceneEntityRelInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface BaseRuleSceneEntityRelInfoMapper {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 查询场景与实体关系表信息
@@ -26,7 +26,7 @@ public interface BaseRuleSceneEntityRelInfoMapper {
 
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 根据场景信息获取相关的实体信息

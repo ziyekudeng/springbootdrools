@@ -9,12 +9,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleSceneInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 public interface BaseRuleSceneInfoMapper {
 
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 获取规则引擎场景集合

@@ -13,7 +13,7 @@ import java.io.Serializable;
  * CLASSPATH: AESUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2017/11/16
+ * DATE:
  */
 public class AESUtil implements Serializable{
 
@@ -44,7 +44,7 @@ public class AESUtil implements Serializable{
     private static final String CIPHER_ALGORITHM = "AES/CBC/PKCS5Padding";
 
     /**
-     * Date 2017/8/8
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 加密
@@ -71,7 +71,7 @@ public class AESUtil implements Serializable{
     }
 
     /**
-     * Date 2017/8/8
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:解密
@@ -98,7 +98,7 @@ public class AESUtil implements Serializable{
     }
 
     /**
-     * Date 2017/8/25
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 十六进制转为字节
@@ -122,7 +122,7 @@ public class AESUtil implements Serializable{
     }
 
     /**
-     * Date 2017/8/25
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 转为十六进制

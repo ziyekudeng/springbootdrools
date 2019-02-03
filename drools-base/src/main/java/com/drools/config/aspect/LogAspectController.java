@@ -21,7 +21,7 @@ import java.util.Arrays;
  * CLASSPATH: com.drools.config.aspect.WebLogAspect
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2017/11/16
+ * DATE:
  */
 @Aspect
 @Slf4j

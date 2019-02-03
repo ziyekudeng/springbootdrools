@@ -17,12 +17,12 @@ import java.util.List;
  * CLASSPATH: com.drools.util.excel.ExcelFileUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/8/29
+ * DATE:
  */
 public class ExcelFileUtil extends BaseExcelFile implements Serializable {
 
     /**
-     * Date 2017/2/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 生成一个是否包含字典值, 翻译, 日期的sheet页的Excel
@@ -47,7 +47,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/2/21
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 对数据集合进行分割处理，防止 EXCEL 2003 超过 65536行数据
@@ -86,7 +86,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/2/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 生成包含多个sheet页的Excel
@@ -101,7 +101,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/2/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 生成包含多个sheet页的Excel
@@ -166,7 +166,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  创建excel2003
@@ -206,7 +206,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  创建行数据
@@ -251,7 +251,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2018/2/8
+     * DATE:
      * Author gaowei
      * 方法说明: 写入数据
      *
@@ -297,7 +297,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/2/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 生成一个是否包含字典值, 翻译, 日期的sheet页的Excel
@@ -325,7 +325,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/2/21
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:将现有的List按照指定的大小(size)分成多段新的List
@@ -369,7 +369,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
 
 
     /**
-     * Date 2017/2/21
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: POI 生成包含多个sheet页的Excel
@@ -384,7 +384,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/2/21
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: POI 生成包含多个sheet页的Excel
@@ -451,7 +451,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 创建excel
@@ -476,7 +476,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  创建excel信息
@@ -499,7 +499,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2017/8/29
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  创建excel内容信息
@@ -545,7 +545,7 @@ public class ExcelFileUtil extends BaseExcelFile implements Serializable {
     }
 
     /**
-     * Date 2018/2/8
+     * DATE:
      * Author gaowei
      * 方法说明: 写入数据
      *

@@ -9,12 +9,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleVariableInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 public interface BaseRuleVariableInfoMapper {
 
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 根据变量类型或数值类型查询变量信息

@@ -16,7 +16,7 @@ import java.util.Map;
  * CLASSPATH: TestActionImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 @Slf4j
 @Service
@@ -27,7 +27,7 @@ public class TestActionImpl implements DroolsActionService {
     private static final String LINE_SEPARATOR = "line.separator";
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 引擎执行结束,实现类默认执行方法

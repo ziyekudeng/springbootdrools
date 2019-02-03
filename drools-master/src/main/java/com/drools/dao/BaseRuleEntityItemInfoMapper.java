@@ -11,12 +11,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleEntityInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 @Mapper
 public interface BaseRuleEntityItemInfoMapper {
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 根据实体id获取规则引擎实体属性信息
@@ -25,7 +25,7 @@ public interface BaseRuleEntityItemInfoMapper {
     List<BaseRuleEntityItemInfo> findBaseRuleEntityItemInfoList(BaseRuleEntityItemInfo baseRuleEntityItemInfo);
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据id获取对应的属性信息

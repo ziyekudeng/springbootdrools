@@ -13,12 +13,12 @@ import java.util.List;
  * CLASSPATH: BaseRuleInfoMapper
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/25
+ * DATE:
  */
 public interface BaseRuleInfoMapper {
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 查询规则信息集合
@@ -27,7 +27,7 @@ public interface BaseRuleInfoMapper {
     List<BaseRuleInfo> findBaseRuleInfoList(BaseRuleInfo baseRuleInfo);
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 查询规则属性信息
@@ -36,7 +36,7 @@ public interface BaseRuleInfoMapper {
     List<BaseRulePropertyInfo> findBaseRulePropertyInfoList(BaseRulePropertyInfo baseRulePropertyInfo);
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 根据规则获取已经配置的属性信息
@@ -45,7 +45,7 @@ public interface BaseRuleInfoMapper {
     List<BaseRulePropertyRelInfo> findRulePropertyListByRuleId(@Param("ruleId") Long ruleId);
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 根据场景获取对应的规则规则信息

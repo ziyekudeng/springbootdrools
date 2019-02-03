@@ -9,11 +9,11 @@ import java.util.List;
  * CLASSPATH: com.drools.service.RuleSceneService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 public interface RuleSceneService {
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 获取规则引擎场景集合

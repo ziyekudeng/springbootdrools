@@ -17,7 +17,7 @@ import java.io.Serializable;
  * CLASSPATH: PinyinUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/1/14
+ * DATE:
  */
 public class PinyinUtil implements Serializable {
 
@@ -64,7 +64,7 @@ public class PinyinUtil implements Serializable {
     }
 
     /**
-     * Date 2018/1/14
+     * DATE:
      * Author gaowei
      * 方法说明: 获取首字母(大写)
      *
@@ -75,7 +75,7 @@ public class PinyinUtil implements Serializable {
     }
 
     /**
-     * Date 2018/1/14
+     * DATE:
      * Author gaowei
      * 方法说明: 获取首字母(小写)
      *
@@ -86,7 +86,7 @@ public class PinyinUtil implements Serializable {
     }
 
     /**
-     * Date 2018/1/14
+     * DATE:
      * Author gaowei
      * 方法说明: 获取首字母
      *

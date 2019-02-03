@@ -21,7 +21,7 @@ import java.util.stream.IntStream;
  * CLASSPATH: com.drools.cpyy.service.sequence.impl.SequenceServiceImpl
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/3/12
+ * DATE:
  */
 @Slf4j
 @Service
@@ -36,7 +36,7 @@ public class SequenceServiceImpl implements ISequenceService {
     }
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取下一个序列值
      *
@@ -52,7 +52,7 @@ public class SequenceServiceImpl implements ISequenceService {
     }
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取当前序列值
      *
@@ -67,7 +67,7 @@ public class SequenceServiceImpl implements ISequenceService {
     }
 
     /**
-     * Date 2018/8/30
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取序列
      *
@@ -82,7 +82,7 @@ public class SequenceServiceImpl implements ISequenceService {
     }
 
     /**
-     * Date 2018/7/4
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取指定区间序列值
      *

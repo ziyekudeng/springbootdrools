@@ -18,7 +18,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 判断是否是10进制数，可判断负数、小数
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean isNumber(String str) {
         Pattern pattern = Pattern.compile("^(-?[1-9]\\d*\\.?\\d*)|(-?0\\.\\d*[1-9])|(-?[0])|(-?[0]\\.\\d*)$"); // -?[0-9]+.?[0-9]+
@@ -30,7 +30,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 判断是否是10进制数，无法判断负数、小数
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean isNumeric(String str) {
         return StringUtils.isNumeric(str);
@@ -41,7 +41,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Integer
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Integer createInteger(String str) {
         return (str == null || str.trim().length() == 0) ? null : NumberUtils.createInteger(str);
@@ -51,7 +51,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Integer
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Integer createInteger(Number n) {
         if (n == null) {
@@ -64,7 +64,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Integer
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Integer createInteger(Object o) {
         if (o == null) {
@@ -80,7 +80,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Long
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Long createLong(String str) {
         return (str == null || str.trim().length() == 0) ? null : NumberUtils.createLong(str);
@@ -90,7 +90,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Long
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Long createLong(Number n) {
         if (n == null) {
@@ -103,7 +103,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Long
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Long createLong(Object o) {
         if (o == null) {
@@ -119,7 +119,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Double
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Double createDouble(String str) {
         return (str == null || str.trim().length() == 0) ? null : NumberUtils.createDouble(str);
@@ -129,7 +129,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Double
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Double createDouble(Number n) {
         if (n == null) {
@@ -142,7 +142,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Double
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Double createDouble(Object o) {
         if (o == null) {
@@ -158,7 +158,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Float
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Float createFloat(String str) {
         return (str == null || str.trim().length() == 0) ? null : NumberUtils.createFloat(str);
@@ -168,7 +168,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Float
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Float createFloat(Number n) {
         if (n == null) {
@@ -181,7 +181,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 Float
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static Float createFloat(Object o) {
         if (o == null) {
@@ -197,7 +197,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 BigDecimal
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal createBigDecimal(String str) {
         return (str == null || str.trim().length() == 0) ? null : NumberUtils.createBigDecimal(str);
@@ -207,7 +207,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 BigDecimal
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigDecimal createBigDecimal(Object o) {
         if (o == null) {
@@ -220,7 +220,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 BigInteger
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigInteger createBigInteger(String str) {
         return (str == null || str.trim().length() == 0) ? null : NumberUtils.createBigInteger(str);
@@ -230,7 +230,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 创建 BigInteger
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static BigInteger createBigInteger(Object o) {
         if (o == null) {
@@ -243,7 +243,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 比较两个数大小，number1 小于 等于 大于 number2，分别返回 -1 0 1，null 视为无限大
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static int compare(Number number1, Number number2) {
         if (number1 == null) {
@@ -256,7 +256,7 @@ public class NumberUtil implements Serializable {
      * 方法说明 : 比较两个数是否相等，都为 null 视为相等
      * <p>
      * Author gaowei
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean equals(Number number1, Number number2) {
         if (number1 == null) {

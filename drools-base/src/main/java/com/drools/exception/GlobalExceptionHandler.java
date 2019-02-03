@@ -25,7 +25,7 @@ import static com.drools.util.restful.ResultResponseUtils.error;
  * CLASSPATH: GlobalExceptionHandler
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2017/11/21
+ * DATE:
  */
 @ControllerAdvice
 @RestController

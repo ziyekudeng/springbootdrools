@@ -9,12 +9,12 @@ import java.io.Serializable;
  * CLASSPATH: util.PageUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/2/17
+ * DATE:
  */
 public class PageUtil implements Serializable {
 
     /**
-     * Date 2017/2/17
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 初始化分页
@@ -24,7 +24,7 @@ public class PageUtil implements Serializable {
     }
 
     /**
-     * Date 2017/2/17
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  PageInfo 初始化

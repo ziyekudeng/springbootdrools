@@ -10,12 +10,12 @@ import java.util.List;
  * CLASSPATH: com.drools.cpyy.service.sequence.ISequenceService
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/3/12
+ * DATE:
  */
 public interface ISequenceService {
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取下一个序列值
      *
@@ -24,7 +24,7 @@ public interface ISequenceService {
     Integer getNextValBySeqName(SequenceEnum seqName);
 
     /**
-     * Date 2018/3/12
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取当前序列值
      *
@@ -33,7 +33,7 @@ public interface ISequenceService {
     Integer getCurrValBySeqName(SequenceEnum seqName);
 
     /**
-     * Date 2018/8/30
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取序列
      *
@@ -42,7 +42,7 @@ public interface ISequenceService {
     Sequence findSequenceBySeqName(SequenceEnum seqName);
 
     /**
-     * Date 2018/7/4
+     * DATE:
      * Author gaowei
      * 方法说明: 根据序列名称获取指定区间序列值
      *

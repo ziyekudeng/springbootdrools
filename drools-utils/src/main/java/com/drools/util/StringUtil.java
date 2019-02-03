@@ -9,7 +9,7 @@ import java.io.Serializable;
  * CLASSPATH: StringUtil.java
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2018/1/14
+ * DATE:
  */
 public class StringUtil implements Serializable {
 
@@ -21,7 +21,7 @@ public class StringUtil implements Serializable {
      * <p>
      * Author gaowei
      * <p>
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean isNull(String str) {
         return str == null || str.trim().length() == 0;
@@ -32,7 +32,7 @@ public class StringUtil implements Serializable {
      * <p>
      * Author gaowei
      * <p>
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean isNullOrNullValue(String str) {
         return str == null || str.trim().length() == 0 || "null".equalsIgnoreCase(str.trim());
@@ -43,7 +43,7 @@ public class StringUtil implements Serializable {
      * <p>
      * Author gaowei
      * <p>
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean equals(String str1, String str2) {
         return str1 != null && str2 != null && str1.equals(str2);
@@ -54,7 +54,7 @@ public class StringUtil implements Serializable {
      * <p>
      * Author gaowei
      * <p>
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean equalsTrim(String str1, String str2) {
         return str1 != null && str2 != null && str1.trim().equals(str2.trim());
@@ -65,7 +65,7 @@ public class StringUtil implements Serializable {
      * <p>
      * Author gaowei
      * <p>
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean equalsNull(String str1, String str2) {
         return !isNull(str1) && !isNull(str2) && str1.trim().equals(str2.trim());
@@ -76,7 +76,7 @@ public class StringUtil implements Serializable {
      * <p>
      * Author gaowei
      * <p>
-     * Date 2017/1/3
+     * DATE:
      */
     public static boolean equalsNullOrNullValue(String str1, String str2) {
         return !isNullOrNullValue(str1) && !isNullOrNullValue(str2) && str1.trim().equals(str2.trim());
@@ -84,7 +84,7 @@ public class StringUtil implements Serializable {
 
 
     /**
-     * Date 2018/11/20
+     * DATE:
      * Author gaowei
      * 方法说明: 字符串左补齐 (目前用于公司,机构,菜单编码生成,默认长度为三位,自动补0)
      *
@@ -95,7 +95,7 @@ public class StringUtil implements Serializable {
     }
 
     /**
-     * Date 2018/11/20
+     * DATE:
      * Author gaowei
      * 方法说明: 字符串左补齐
      *

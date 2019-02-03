@@ -21,7 +21,7 @@ import java.util.Map;
  * CLASSPATH: com.drools.util.excel.readexcel.ExcelReadUtil
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2018/5/16
+ * DATE:
  */
 public class ExcelReadUtil implements Serializable {
     /*
@@ -36,7 +36,7 @@ public class ExcelReadUtil implements Serializable {
 
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: POI读取Excel,获取表头,数据等相关信息
      *
@@ -59,7 +59,7 @@ public class ExcelReadUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: 读取Excel,封装数据
      *
@@ -109,7 +109,7 @@ public class ExcelReadUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: 获取excel数据
      *
@@ -146,7 +146,7 @@ public class ExcelReadUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: 获取表头信息
      *
@@ -181,7 +181,7 @@ public class ExcelReadUtil implements Serializable {
     }
 
     /**
-     * Date 2018/5/16
+     * DATE:
      * Author gaowei
      * 方法说明: 创建临时表建表语句
      *

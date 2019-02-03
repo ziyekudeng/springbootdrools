@@ -10,12 +10,12 @@ import java.util.List;
  * CLASSPATH: com.drools.service.RuleConditionService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface RuleConditionService {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则获取规则条件信息
@@ -26,7 +26,7 @@ public interface RuleConditionService {
     PageInfo<BaseRuleConditionInfo> findBaseRuleConditionInfoPage(BaseRuleConditionInfo baseRuleConditionInfo, PageInfo page);
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则id获取规则条件信息

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * CLASSPATH: StartupInitialize
  * VERSION:   1.0
  * Created by gaowei
- * DATE: 2017/11/16
+ * DATE:
  */
 @Slf4j
 @Component

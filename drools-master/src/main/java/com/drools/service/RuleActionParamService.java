@@ -10,12 +10,12 @@ import java.util.List;
  * CLASSPATH: com.drools.service.RuleActionParamService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/24
+ * DATE:
  */
 public interface RuleActionParamService {
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 获取动作参数信息
@@ -25,7 +25,7 @@ public interface RuleActionParamService {
     PageInfo<BaseRuleActionParamInfo> findBaseRuleActionParamInfoPage(BaseRuleActionParamInfo baseRuleActionParamInfo, PageInfo page);
 
     /**
-     * Date 2017/7/24
+     * DATE:
      * Author gaowei
      *
      * 方法说明: 根据动作id获取动作参数信息

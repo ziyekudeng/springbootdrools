@@ -13,7 +13,7 @@ import java.util.Map;
  * CLASSPATH: RuleExecutionObject
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/25
+ * DATE:
  */
 @Data
 public class RuleExecutionObject implements Serializable {
@@ -28,7 +28,7 @@ public class RuleExecutionObject implements Serializable {
     private String ruleName;
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 添加fact对象
@@ -40,7 +40,7 @@ public class RuleExecutionObject implements Serializable {
     }
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 设置Global参数

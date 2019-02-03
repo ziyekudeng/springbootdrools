@@ -10,7 +10,7 @@ import lombok.EqualsAndHashCode;
  * CLASSPATH: TestRule
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

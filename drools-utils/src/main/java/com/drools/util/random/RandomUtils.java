@@ -46,7 +46,7 @@ public class RandomUtils implements Serializable {
     }
 
     /**
-     * Date 2018/1/16
+     * DATE:
      * Author gaowei
      * 方法说明: 生成随机字符串
      *

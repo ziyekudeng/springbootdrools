@@ -7,7 +7,7 @@ import lombok.Getter;
  * CLASSPATH: ExceptionEnum.java
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/11/20
+ * DATE:
  */
 public enum ExceptionEnum implements IExceptionEnum {
 

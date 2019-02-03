@@ -26,7 +26,7 @@ import java.util.Map;
  * CLASSPATH: com.drools.service.impl.DroolsRuleEngineService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/25
+ * DATE:
  */
 @Service
 @Transactional
@@ -59,7 +59,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     private static final String[] arr = new String[]{"date-effective", "date-expires", "dialect", "activation-group", "agenda-group", "ruleflow-group"};
 
     /**
-     * Date 2017/7/25
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 规则引擎执行方法
@@ -86,7 +86,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 规则执行方法
@@ -144,7 +144,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2018/6/8
+     * DATE:
      * Author gaowei
      * 方法说明: 构建动作先关信息
      *
@@ -166,7 +166,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
 
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 编译规则脚本，并执行规则
@@ -190,7 +190,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
 
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 拼接drools语句
@@ -236,7 +236,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 组装规则信息
@@ -257,7 +257,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据规则拼接规则自身相关的属性信息
@@ -283,7 +283,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 拼接规则条件信息
@@ -313,7 +313,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 处理条件部分内容
@@ -371,7 +371,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 拼接规则动作部分
@@ -412,7 +412,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2018/6/9
+     * DATE:
      * Author gaowei
      * 方法说明: 获取动作参数信息
      *
@@ -485,7 +485,7 @@ public class DroolsRuleEngineServiceImpl implements DroolsRuleEngineService {
     }
 
     /**
-     * Date 2017/7/26
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 插入规则表达式的import部分

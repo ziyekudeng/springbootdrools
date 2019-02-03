@@ -10,12 +10,12 @@ import java.util.List;
  * CLASSPATH: com.drools.service.RuleVariableService
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/20
+ * DATE:
  */
 public interface RuleVariableService {
 
     /**
-     * Date 2017/7/20
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 根据变量类型或数值类型获取变量集合信息

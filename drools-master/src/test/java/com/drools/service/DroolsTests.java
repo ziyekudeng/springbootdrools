@@ -46,7 +46,7 @@ public class DroolsTests extends ApplicationTests {
     private DroolsRuleEngineService droolsRuleEngineService;
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明: 测试规则相关查询
@@ -113,7 +113,7 @@ public class DroolsTests extends ApplicationTests {
     }
 
     /**
-     * Date 2017/7/27
+     * DATE:
      * Author gaowei
      * <p>
      * 方法说明:  测试规则

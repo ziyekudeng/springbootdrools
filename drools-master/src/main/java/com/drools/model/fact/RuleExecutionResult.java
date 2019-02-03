@@ -11,7 +11,7 @@ import java.util.Map;
  * CLASSPATH: RuleExecutionResult
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/7/25
+ * DATE:
  */
 @Data
 public class RuleExecutionResult implements Serializable {

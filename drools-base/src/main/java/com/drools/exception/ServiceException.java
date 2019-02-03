@@ -5,7 +5,7 @@ package com.drools.exception;
  * CLASSPATH: ServiceException.java
  * VERSION:   1.0
  * Created by gaowei
- * DATE:      2017/11/20
+ * DATE:
  */
 public class ServiceException extends EnumException {
 
