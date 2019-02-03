@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 描述：
- * CLASSPATH: com.sinosoft.util.excel.ExcelModel
+ * CLASSPATH: com.drools.util.excel.ExcelModel
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/8/29

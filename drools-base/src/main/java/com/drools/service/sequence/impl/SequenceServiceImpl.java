@@ -18,7 +18,7 @@ import java.util.stream.IntStream;
 
 /**
  * 描述：
- * CLASSPATH: com.sinosoft.cpyy.service.sequence.impl.SequenceServiceImpl
+ * CLASSPATH: com.drools.cpyy.service.sequence.impl.SequenceServiceImpl
  * VERSION:   1.0
  * Created by gaowei
  * DATE: 2018/3/12

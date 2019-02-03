@@ -15,7 +15,7 @@ import java.util.Map;
 
 /**
  * 描述： 生成excel
- * CLASSPATH: com.sinosoft.util.excel.ExcelFileMapUtil
+ * CLASSPATH: com.drools.util.excel.ExcelFileMapUtil
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/8/28

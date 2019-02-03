@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 描述：
- * CLASSPATH: com.sinosoft.cpyy.util.page.Pagination
+ * CLASSPATH: com.drools.cpyy.util.page.Pagination
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/9/29

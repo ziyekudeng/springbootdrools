@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 描述：
- * CLASSPATH: com.sinosoft.cpyy.service.sequence.ISequenceService
+ * CLASSPATH: com.drools.cpyy.service.sequence.ISequenceService
  * VERSION:   1.0
  * Created by gaowei
  * DATE: 2018/3/12

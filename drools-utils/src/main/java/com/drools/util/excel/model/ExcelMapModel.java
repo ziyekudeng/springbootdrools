@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 描述： excel 导出（mybatis查询 List<LinkedHashMap<String, Object>>）
- * CLASSPATH: com.sinosoft.util.excel.ExcelMapModel
+ * CLASSPATH: com.drools.util.excel.ExcelMapModel
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/8/28

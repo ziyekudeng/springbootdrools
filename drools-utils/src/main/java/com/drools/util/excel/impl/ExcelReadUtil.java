@@ -18,7 +18,7 @@ import java.util.Map;
 
 /**
  * 描述：
- * CLASSPATH: com.sinosoft.util.excel.readexcel.ExcelReadUtil
+ * CLASSPATH: com.drools.util.excel.readexcel.ExcelReadUtil
  * VERSION:   1.0
  * Created by gaowei
  * DATE: 2018/5/16
