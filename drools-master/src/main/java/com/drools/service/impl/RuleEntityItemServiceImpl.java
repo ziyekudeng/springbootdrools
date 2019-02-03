@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * 描述：
- * CLASSPATH: com.sky.bluesky.service.impl.RuleEntityItemServiceImpl
+ * CLASSPATH: com.drools.service.impl.RuleEntityItemServiceImpl
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/7/20

@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 描述：
- * CLASSPATH: com.sky.bluesky.service.RuleActionService
+ * CLASSPATH: com.drools.service.RuleActionService
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/7/24

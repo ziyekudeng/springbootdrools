@@ -5,7 +5,7 @@ import com.drools.model.fact.RuleExecutionObject;
 
 /**
  * 描述：
- * CLASSPATH: com.sky.bluesky.service.DroolsRuleEngineService
+ * CLASSPATH: com.drools.service.DroolsRuleEngineService
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/7/25

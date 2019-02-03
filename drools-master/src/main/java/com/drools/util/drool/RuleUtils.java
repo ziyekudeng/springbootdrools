@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 /**
  * 描述：规则工具类
- * CLASSPATH: com.sky.bluesky.util.RuleUtils
+ * CLASSPATH: com.drools.util.RuleUtils
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/7/26

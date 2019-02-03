@@ -20,7 +20,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 描述：
- * CLASSPATH: com.sky.bluesky.util.DroolsUtil
+ * CLASSPATH: com.drools.util.DroolsUtil
  * VERSION:   1.0
  * Created by gaowei
  * DATE:      2017/7/25
